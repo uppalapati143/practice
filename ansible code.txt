@@ -1,0 +1,7 @@
+# requirements.yml
+collections:
+  - name: ns.coll
+    version: 1.0.0
+    signatures:
+      - https://examplehost.com/detached_signature.asc
+      - file:///path/to/local/detached_signature.asc
